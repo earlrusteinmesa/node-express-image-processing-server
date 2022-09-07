@@ -67,7 +67,7 @@ function imageProcessor(filename) {
   });
 }
 
-function updatePathResolver(filename) {
+function uploadPathResolver(filename) {
   return path.resolve(__dirname, "../uploads", filename);
 }
 
